@@ -5,7 +5,7 @@ import { AiOutlineLogout } from "react-icons/ai";
 
 const MessagingChannel = () => {
   return (
-    <div className="w-[265px] h-full  bg-[#faf9f9] text-[14px] text-[#9c9c9c]  border-[1px]">
+    <div className="w-1/6  h-full  bg-[#faf9f9] text-[14px] text-[#9c9c9c]  border-[1px]">
       <div
         id="select-channel "
         className="w-full h-1/6 p-4  flex flex-col justify-around"
