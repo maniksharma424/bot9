@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Inbox = ({ messages }) => {
 
   return (
-    <div className="border-r-[0.5px] w-full  lg:w-1/4 h-full flex flex-col ">
+    <div className="border-r-[0.5px] w-full  lg:w-1/4 h-full overflow-scroll flex flex-col ">
       <div
         id="search-box"
         className="w-full h-[65px] border-[0.5px] flex justify-between items-center  sm:px-5  pr-4  text-[25px] font-[400] text-black"
