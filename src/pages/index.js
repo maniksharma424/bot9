@@ -17,7 +17,7 @@ export default function Home({messages}) {
       <div
         id="container"
         className="flex-1 flex"
-        style={{ minHeight: 0 }} // Allow the container to shrink if needed
+        style={{ minHeight: 0 }} 
       >
         <MessagingChannel />
         <Inbox messages={messages} />
