@@ -25,8 +25,8 @@ const MessagingChannel = () => {
       <div id="status" className="w-full h-4/6   px-4 ">
         <p className="text-[#10a37f] font-[500]">status</p>
 
-        <ul className="w-full h-1/4 flex flex-col justify-around bg-inherit">
-          <li className="w-full rounded-md flex justify-start items-center bg-white p-2 px-5 h-fit">
+        <ul className="w-full h-fit flex flex-col justify-around bg-inherit ">
+          <li className="w-full rounded-md flex justify-start items-center bg-white p-2 px-5 h-fit my-1">
             <span className="bg-[#10a37f] rounded-lg h-2 w-2 mr-2"></span>
             <span>bot</span>
           </li>
