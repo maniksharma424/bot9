@@ -4,35 +4,35 @@
     "message": "please send an email to our customer care",
     "time": "13 h",
     "nameLetter": "T",
-    "backgroundColor": "#18ddef"
+    "backgroundColor": "#0e5c32"
   },
   {
     "recipient": "overlapping undercurrent",
     "message": "currently dukaan does not have a bbuilt in feature for this ",
     "time": "13 h",
     "nameLetter": "O",
-    "backgroundColor": "#d1f0d7"
+    "backgroundColor": "#cf3eca"
   },
   {
     "recipient": "illuminating cardiologist",
     "message": "To check discounts or promotions, you can",
     "time": "13 h",
     "nameLetter": "I",
-    "backgroundColor": "#eb4034"
+    "backgroundColor": "#49dbe3"
   },
   {
     "recipient": "adverse filip",
     "message": "it seems there might be an technical issue",
     "time": "13 h",
     "nameLetter": "A",
-    "backgroundColor": "#057d3d"
+    "backgroundColor": "#ecf007"
   },
   {
     "recipient": "recommended breakin",
     "message": "thank you for understanding. If you have an",
     "time": "14 h",
     "nameLetter": "R",
-    "backgroundColor": "#eb4034"
+    "backgroundColor": "#d19869"
   },
   {
     "recipient": "expected whirpool ",
@@ -46,20 +46,20 @@
     "message": "our technical team is aware of this issue and ",
     "time": "13 h",
     "nameLetter": "U",
-    "backgroundColor": "#eb4034"
+    "backgroundColor": "#9fe856"
   },
   {
     "recipient": "marletable nationalization",
     "message": "As a support agent, i'm unable to directly a",
     "time": "13 h",
     "nameLetter": "M",
-    "backgroundColor": "#eb4034"
+    "backgroundColor": "#0ca3c4"
   },
   {
     "recipient": "creeping watershed",
     "message": "you can explore and choose from a variety of ",
     "time": "13 h",
     "nameLetter": "C",
-    "backgroundColor": "#eb4034"
+    "backgroundColor": "#bc7af5"
   }
 ]

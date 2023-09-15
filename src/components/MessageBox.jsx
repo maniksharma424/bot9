@@ -16,12 +16,12 @@ const MessageBox = () => {
           </span>
           <span className="bg-[#00D67F] rounded-lg h-2 w-2 relative top-4 right-3"></span>
           <div className="flex flex-col text-black">
-            <p className="font-[500] text-[16px]">expected whirpool</p>
+            <p className="font-[500] text-[16px] w-full text-ellipsis whitespace-nowrap overflow-hidden">expected whirpool</p>
             <p className="text-[13px] font-[400] text-[#9c9c9c]">online</p>
           </div>
         </div>
         <div id="btns" className="w-1/2 flex justify-end items-center">
-          <button className="mr-4 text-black border-[1px] p-1 px-2 rounded-md flex items-center">
+          <button className="mr-4 bg-white text-black border-[1px] p-1 px-2 rounded-md flex items-center">
             <span className="mr-1">
               <TbUsersPlus />
             </span>
