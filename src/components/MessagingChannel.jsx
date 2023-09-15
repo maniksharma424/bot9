@@ -2,22 +2,24 @@ import React from "react";
 import { BiUserCircle } from "react-icons/bi";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { AiOutlineLogout } from "react-icons/ai";
-
+import { BiChevronDown } from "react-icons/bi";
 const MessagingChannel = () => {
   return (
-
     <div className="w-1/6  h-full sm:block hidden  bg-[#faf9f9] text-[14px] text-[#9c9c9c]  border-[1px]">
       <div
         id="select-channel "
         className="w-full h-1/6 p-4  flex flex-col justify-around"
       >
         <p className="text-[#10a37f] font-[500]">messaging channels</p>
-        <select
+        <div
           id="channelSelect"
-          className="text-[14px] border-[1px] border-gray-400 w-5/6 p-2 text-[#9c9c9c] bg-inherit rounded-lg"
+          className="text-[14px] border-[0.5px] border-gray-400 w-full flex justify-between items-center text-[#9c9c9c] bg-inherit rounded-lg"
         >
-          <option value="All Channels">all Channels</option>
-        </select>
+          <p className="w-5/6 p-2">all Channels</p>
+          <p className="w-1/6 flex p-2 justify-center items-center border-l-[1px] h-full text-[20px]">
+            <BiChevronDown />
+          </p>
+        </div>
       </div>
 
       <div id="status" className="w-full h-4/6   px-4 ">
@@ -41,7 +43,7 @@ const MessagingChannel = () => {
 
       <div id="buttons" className="w-full h-1/6 flex items-end">
         <div className="w-full h-1/2 border-[1px]  flex justify-between items-center text-[20px]  px-4 bg-white text-black">
-          <BiUserCircle  />
+          <BiUserCircle />
           <AiOutlineQuestionCircle />
           <AiOutlineLogout />
         </div>
