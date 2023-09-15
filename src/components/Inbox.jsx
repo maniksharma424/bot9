@@ -1,9 +1,10 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
-import messages from "../../src/messages.json";
+//import messages from "../../src/messages.json";
 import MessageCard from "./MessageCard";
-import { Avatar } from "primereact/avatar";
-const Inbox = () => {
+
+
+const Inbox = ({messages}) => {
   console.log(messages);
   return (
     <div className="border-r-[0.5px] w-full  lg:w-1/4 h-full flex flex-col ">

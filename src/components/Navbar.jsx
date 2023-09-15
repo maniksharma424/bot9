@@ -9,7 +9,7 @@ import { BiChevronDown } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#343a40] w-full h-[65px] flex">
+    <div className="bg-[#343a40] w-full h-full flex">
       <div className="w-1/6 bg-[#23262D] flex justify-start items-center ">
         <img
           src="https://app.bot9.ai/dist/img/logo_white.svg"
@@ -62,7 +62,7 @@ const Navbar = () => {
       </div>
       <div
         id="active-btn"
-        className="lg:w-1/3 w-full flex justify-end items-center px-5"
+        className="lg:w-2/6 w-5/6 flex justify-end items-center px-5"
       >
         <button className="bg-[#333537] w-[120px] h-[30px] rounded-md  text-white flex justify-around items-center p-2">
           <span className="bg-[#10a37f] rounded-lg h-3 w-3"></span>

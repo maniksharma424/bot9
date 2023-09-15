@@ -5,18 +5,32 @@ import MessagingChannel from "@/components/MessagingChannel";
 import Inbox from "@/components/Inbox";
 import MessageBox from "@/components/MessageBox";
 import GeneralinfoBox from "@/components/GeneralinfoBox";
+
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home({messages}) {
   return (
     <main className="bg-white w-full h-screen">
-      <Navbar />
+      <div className="w-full h-[65px]">
+        <Navbar />
+      </div>
       <div id="container" className="flex w-full h-[750px]">
         <MessagingChannel />
-        <Inbox />
+        <Inbox messages={messages} />
         <MessageBox />
-        <GeneralinfoBox/>
+        <GeneralinfoBox />
       </div>
     </main>
   );
+}
+
+export async function getStaticProps() {
+  // Fetch messages from messages.json (assuming it's in the root directory)
+  const messagesData = await import("../../src/messages.json");
+
+  return {
+    props: {
+      messages: messagesData.default,
+    },
+  };
 }
