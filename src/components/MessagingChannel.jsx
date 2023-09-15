@@ -1,6 +1,6 @@
 import React from "react";
-import { FaUserCircle } from "react-icons/fa";
-import { AiFillQuestionCircle } from "react-icons/ai";
+import { BiUserCircle } from "react-icons/bi";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { AiOutlineLogout } from "react-icons/ai";
 
 const MessagingChannel = () => {
@@ -40,9 +40,9 @@ const MessagingChannel = () => {
       </div>
 
       <div id="buttons" className="w-full h-1/6 flex items-end">
-        <div className="w-full h-1/2 border-[1px]  flex justify-between items-center text-[20px] text-[#9c9c9c] px-4 bg-white ">
-          <FaUserCircle />
-          <AiFillQuestionCircle />
+        <div className="w-full h-1/2 border-[1px]  flex justify-between items-center text-[20px]  px-4 bg-white text-black">
+          <BiUserCircle  />
+          <AiOutlineQuestionCircle />
           <AiOutlineLogout />
         </div>
       </div>
