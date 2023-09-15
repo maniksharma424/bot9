@@ -4,11 +4,13 @@ const MessageCard = ({ message }) => {
   return (
     <div className="w-full h-[75px] p-2 flex  hover:bg-[#f3f0f0]">
       <div id="icon" className="w-1/6 lg:w-1/4 h-full flex justify-center items-center  ">
-        <span
-          className={`relative flex justify-center items-center w-10 h-10    bg-[${message?.backgroundColor}]  rounded-full p-2 text-[16px] font-[600] text-white`}
-        >
-          {message.nameLetter}
-        </span>
+      <span
+  className="relative flex justify-center items-center w-10 h-10 rounded-full p-2 text-[16px] font-[600] text-white"
+  style={{ backgroundColor: message?.backgroundColor }}
+>
+  {message.nameLetter}
+</span>
+
 
         <img
           src="https://app.bot9.ai/dist/img/website_widget.svg"

@@ -4,30 +4,30 @@ import { BiChevronDown } from "react-icons/bi";
 const GeneralinfoBox = () => {
   return (
     <div className=" w-1/4 h-full lg:block hidden ">
-      <div className="w-full h-3/5  text-[#9c9c9c]">
+      <div className="w-full h-3/5  text-[#898686]">
         <div className=" w-full p-4 h-3/5">
           <p className="text-[#10a37f] font-[500]">general info</p>
 
           <div className="w-full h-4/5 flex flex-col justify-evenly">
             <li className="w-full flex justify-between">
               <span>name</span>
-              <span>miscellanous sellout</span>
+              <span className="text-black">miscellanous sellout</span>
             </li>
             <li className="w-full flex justify-between">
               <span>email</span>
-              <span>email</span>
+              <span className="text-[#aaa9a9]">email</span>
             </li>
             <li className="w-full flex justify-between">
               <span>phone</span>
-              <span>phone number</span>
+              <span className="text-[#aaa9a9]">phone number</span>
             </li>
             <li className="w-full flex justify-between">
               <span>company</span>
-              <span>company</span>
+              <span className="text-[#aaa9a9]">company</span>
             </li>
             <li className="w-full flex justify-between">
               <span>location</span>
-              <span>location</span>
+              <span className="text-[#aaa9a9]">location</span>
             </li>
           </div>
         </div>
