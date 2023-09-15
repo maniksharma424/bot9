@@ -10,11 +10,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({messages}) {
   return (
-    <main className="bg-white w-full h-screen">
+    <main className="bg-white w-full h-screen flex flex-col">
       <div className="w-full h-[65px]">
         <Navbar />
       </div>
-      <div id="container" className="flex w-full h-[750px]">
+      <div
+        id="container"
+        className="flex-1 flex"
+        style={{ minHeight: 0 }} // Allow the container to shrink if needed
+      >
         <MessagingChannel />
         <Inbox messages={messages} />
         <MessageBox />
@@ -25,7 +29,6 @@ export default function Home({messages}) {
 }
 
 export async function getStaticProps() {
-  // Fetch messages from messages.json (assuming it's in the root directory)
   const messagesData = await import("../../src/messages.json");
 
   return {
