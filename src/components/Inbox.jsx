@@ -10,7 +10,7 @@ const Inbox = ({ messages }) => {
     <div className="border-r-[0.5px] w-full  lg:w-1/4 h-full flex flex-col ">
       <div
         id="search-box"
-        className="w-full h-[65px] border-[0.5px] flex justify-between items-center  px-7 text-[25px] font-[400] text-black"
+        className="w-full h-[65px] border-[0.5px] flex justify-between items-center  px-5  text-[25px] font-[400] text-black"
       >
         <div className="block sm:hidden text-black ">
           <GiHamburgerMenu />

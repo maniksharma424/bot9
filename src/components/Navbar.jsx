@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="w-1/6 bg-[#23262D] flex justify-start items-center ">
         <img
           src="https://app.bot9.ai/dist/img/logo_white.svg"
-          className="w-2/5 h-3/4 ml-7 "
+          className="sm:w-2/5 sm:h-3/4  w-full h-full sm:ml-5 p-2 "
           alt=""
           srcset=""
         />
